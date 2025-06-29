@@ -1,0 +1,45 @@
+/* === General styles & Tag Selectors === */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Property: font-family */
+    padding-top: 56px; /* Adjust for fixed-top navbar, Property: padding-top */
+    background-color: #f8f9fa; /* Property: background-color */
+}
+
+h1, h2, h3, h4, h5, h6 { /* Grouping Selector */
+    color: #333; /*Property: color */
+}
+
+footer p { /* Descendant Selector */;
+    margin-bottom: 0; /* Property: margin-bottom */
+}
+/* === Class Selectors === */
+.hero-section {
+    background: linear-gradient(rgba(200, 230, 255, 0.9), rgba(240, 250, 255, 0.95)) url(takemetoyourheart.jpg), center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 6rem 1rem; /* Property: padding */
+}
+
+.highlight-card {
+    border-left: 5px, solid #007bff; /* Property: boder-left */
+    transition: transform 0.3s ease-in-out; /* For hover effect */
+}
+
+.highlight-card:hover { /* Pseudo-class Selector */
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+}
+
+.page-header {
+    margin-bottom: 2rem; /* Property: margin-bottom */
+}
+
+/* === ID Selector === */
+#main-navigation {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dynamic-text {
+    font-size: 0.9em; /* Property: front-size */
+    color: #adb5db; /* Light grey */
+}

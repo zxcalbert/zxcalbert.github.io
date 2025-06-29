@@ -1,0 +1,24 @@
+This is my personal website in which I made several pages based on my readings and hobbies.
+
+I used 10 different HTML tags:
+1.<html>
+2.<head>
+3.<meta>
+4.<title>
+5.<link>
+6.<body>
+7.<nav>
+8.<div>
+9.<a>
+10.<button>
+
+I used 5 different CSS properties:
+1.font-family
+2.padding-top
+3.background-color
+4.color
+5.margin-bottom
+
+I use Javascript to add dynamic functionality to the footer, specially to display the current time.
+
+Bootstrap helps me add pre-styled components such as navigation bar, jumbotron into the website to maintaining the visual consistency.
